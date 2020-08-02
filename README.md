@@ -13,7 +13,7 @@ This site locate [GitHub Pages](https://github.com/miha-pavel/dj_test)
 
 ## Before first launch
 ```
-1. python3 -m venv venv
+1. python3 -m venv env
 2. . env/bin/activate
 3. pip install -r requirements.txt
 4. Configure project using `local_setings.dev.py` as example. Your local settings should be written in `local_setings.py`
