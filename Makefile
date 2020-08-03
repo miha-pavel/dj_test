@@ -12,3 +12,6 @@ sh_p:
 
 migrate:
 	./manage.py migrate
+
+load:
+	./manage.py load_test_data

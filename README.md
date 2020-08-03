@@ -34,8 +34,26 @@ Or use makefile guide
 * ```make pep8``` - will check the code with pylint
 * ```make sh_p``` - will run django shell_plus
 * ```make migrate``` - will run django "./manage.py migrate" command
+* ```make load``` - will load users data from the TestData.csv file
+
 
 ## Default super user
 * Username: admin
 * Email address: admin@admin.com
 * Password: admin
+
+
+## Launch Users data
+* Insert TestData.csv file into the test_data folder
+* Run command ```python manage.py load_test_data```
+
+
+## Get results
+To getting results
+* Open Postman
+* Create a new tab with GET request
+* Insert url 'http://localhost:8000/api/v1/order/list_users'
+* You will get list af all users
+* Add any date 'http://localhost:8000/api/v1/order/list_users/2018-05-12'
+* You will get user data which was registered on 2018-05-12
+Ready ScreenShots are already in the Postman_result folder
