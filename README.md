@@ -37,12 +37,6 @@ Or use makefile guide
 * ```make load``` - will load users data from the TestData.csv file
 
 
-## Default super user
-* Username: admin
-* Email address: admin@admin.com
-* Password: admin
-
-
 ## Launch Users data
 * Insert TestData.csv file into the test_data folder
 * Run command ```python manage.py load_test_data```
