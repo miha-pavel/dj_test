@@ -9,5 +9,5 @@ class Order(models.Model):
 
 class User(AbstractUser):
     birth_date = models.DateField(null=True, blank=True)
-    registration_date = models.DateField(auto_now=True)
-    order = models.OneToOneField(Order, on_delete = models.CASCADE, null=True, blank=True)
+    registration_date = models.DateField()
+    order = models.OneToOneField(Order, on_delete=models.CASCADE, null=True, blank=True)
