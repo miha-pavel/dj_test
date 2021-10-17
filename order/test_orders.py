@@ -31,7 +31,7 @@ class OrderTest(TestCase):
         self.assertEqual(len(response_data), self.users_count)
         for user in response_data:
             self.assertTrue(User.objects.get(first_name=user['first_name']))
-    
+
     def test_get_users_by_date(self):
         self.url = reverse('order:api_v1_list_register_users', args=[self.user_register_date])
         self.response = self.client.get(self.url)
@@ -43,7 +43,7 @@ class OrderTest(TestCase):
         self.assertEqual(len(response_data), self.filtered_user.count())
         for user in response_data:
             self.assertTrue(self.filtered_user.get(first_name=user['first_name']))
-        
+
     def test_get_request_with_unexisted_date(self):
         self.url = reverse('order:api_v1_list_register_users', args=[date(1111, 11, 11)])
         self.response = self.client.get(self.url)
