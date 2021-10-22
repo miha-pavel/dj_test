@@ -42,6 +42,7 @@ Or use makefile guide
 * Run command ```python manage.py load_test_data```
 
 
+
 ## Get results
 To getting results
 * Open Postman
