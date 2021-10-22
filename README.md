@@ -42,6 +42,7 @@ Or use makefile guide
 * Run command ```python manage.py load_test_data```
 
 
+
 ## Get results
 To getting results
 * Open Postman
@@ -52,4 +53,5 @@ To getting results
 * You will get user data which was registered on 2018-05-12
 Ready ScreenShots are already in the Postman_result folder
 
+sdkjhgfflkjdghdk;jfgh
 Test message
