@@ -51,5 +51,3 @@ To getting results
 * Add any date 'http://localhost:8000/api/v1/order/list_users/2018-05-12'
 * You will get user data which was registered on 2018-05-12
 Ready ScreenShots are already in the Postman_result folder
-
-Test message
